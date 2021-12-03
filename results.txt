@@ -1,0 +1,26 @@
+- unsup-bert-base
+	- batch size: 128
+	- pooler_type: cls
+	- learning_rate: 3e-5
+	- avg sts: 77.77
+- unsup-roberta-base
+	- batch size: 128
+	- pooler_type: cls
+	- learning_rate: 1e-5
+	- avg sts: 77.19
+- sup-bert-base
+	- batch size: 512
+	- pooler_type: avg
+	- learning_rate: 3e-5
+	- avg sts: 81.99
+- sup-bert-large
+	- batch size: 256
+	- pooler_type: avg
+	- learning_rate: 1e-5
+	- avg sts: 82.74
+- sup-bert-roberta-base
+	- batch size: 512
+	- pooler_type: avg
+	- learning_rate: 4e-5
+	- avg sts: 82.57
+ 
